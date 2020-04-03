@@ -17,17 +17,7 @@
 		<setting name="callSettersOnNulls" value="true"/>
 	</settings>
 	<typeAliases>
-		<package name="com.augurit.agcloud.bsc.domain"/>
-		<package name="com.augurit.agcloud.opus.common.domain"/>
-		<package name="com.augurit.agcloud.meta.domain"/>
-		<package name="com.augurit.agcloud.bpm.common.domain"/>
-		<package name="org.flowable.app.domain.editor"/>
-		<package name="com.augurit.agcloud.aoa.domain"/>
-		<package name="com.augurit.aplanmis.common.domain"/>
-		<package name="com.augurit.agcloud.agx.common.domain"/>
-
-		<package name="com.augurit.agcloud.bpm.admin.qingjia.domain"/>
-		<package name="com.augurit.demo.domain"/>
+		<package name="com.****.domain"/>
 
 	</typeAliases>
 	<typeHandlers>
@@ -42,8 +32,6 @@
 	<mappers>
 		<!-- 集成flowable-modeler 扫描对应的mappsers xml -->
 		<mapper resource="org/flowable/app/repository/editor/Model.xml"/>
-		<mapper resource="org/flowable/app/repository/editor/ModelRelation.xml"/>
-		<mapper resource="org/flowable/app/repository/editor/ModelHistory.xml"/>
 	</mappers>
 
 </configuration>
